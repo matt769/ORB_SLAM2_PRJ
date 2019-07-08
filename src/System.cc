@@ -496,4 +496,11 @@ Map* System::getMap()
     return mpMap;
 }
 
+Tracking* System::getTracking()
+{
+    return mpTracker;
+}
+
+
+
 } //namespace ORB_SLAM

@@ -125,6 +125,7 @@ public:
     std::vector<cv::KeyPoint> GetTrackedKeyPointsUn();
 
     Map* getMap();
+    Tracking* getTracking();
 
 private:
 
